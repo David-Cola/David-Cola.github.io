@@ -1,4 +1,3 @@
-# David-Cola.github.io
 # Ion Exchange Modeling Tool
 ## What is the Ion Exchange Model?
 
