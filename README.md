@@ -9,7 +9,7 @@ Note: If you are going to be using your own data your excel file must be formatt
 
 1. Click import file in the top left of the Interface
 
-![Import File](/David-Cola/David-Cola.github.io/DocumentPics/browse.png)
+![Import File](DocumentPics/browse.png)
 
 3. Change the parameters, ions, and initial concentrations in their respective tabs to receive different results
 4.	Hit run button that’s at the bottom of the same side panel as the file import
