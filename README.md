@@ -10,7 +10,7 @@ Note: If you are going to be using your own data your excel file must be formatt
 1. Click import file in the top left of the Interface
 
 ![Import File](DocumentPics/browse.png)
-<img src="DocumentPics/browse.png" width="720" height="480">
+<img src="DocumentPics/browse.png" width="1280" height="720">
 
 3. Change the parameters, ions, and initial concentrations in their respective tabs to receive different results
 4.	Hit run button that’s at the bottom of the same side panel as the file import
