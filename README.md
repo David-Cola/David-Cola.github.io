@@ -71,6 +71,9 @@ The flow rate represents the distance one unit volume travels through the cylind
 There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.
 
 ### Ions
+The ions tab is present in order to organize the chemicals that are present in the analysis. This tab can be updated in either excel or in the Ion Exchange app. The ions are added by row with the columns in order being name, molecular weight, KxA, valence, film transfer coefficient, and surface diffusion coefficient. Chloride, Sulfate, Bicarbonate, and Nitrate should always be in the ions tab.
+
+
 ##### Molecular Weight
 The sum of all the masses in a molecule.
 ##### KxA
@@ -85,7 +88,9 @@ If you do not know how to find your film transfer coefficient you can find it he
 The Surface Diffusion Coefficient is the proportion of 
 If you do not know where or how to find the Surface Diffusion Coefficient you can find it here
 
-### Input Concentration
+### Initial Concentration
+
+
 
 ### Output Concentration
 The output concentration is given in units of mass divided by volume, however, this number is also adjusted 
