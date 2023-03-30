@@ -45,10 +45,13 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 ## Features <a name="Features"></a>
 
 ### Select Input Units
+The select input units is found in the parameters tab. These should automatically configure to the units in the excel file that is uploaded. Changing the units does not update the value in the value box.
 
 ### Select Output Concentration Units
+The output concentration units is found on the sidebar within the app. The concentrations are multiplied by mass / valence in order to ______. The c/c0 unit is the ratio of the output concentration to the initial concentration found in the 'cin' tab in the excel file in row two, where row one is the header. The output concentration units can be decided before or after run analysis is clicked so that the units can be changed in real time.
 
 ### Select Time Units
+The output time units is found on the sidebar within the app. An important thing to note is that the output time units is NOT connected to the time in the 'cin' tab. If the user wishes to change the concentration time that can be found in the parameter tab. The output time units can be changed before or after the run analysis is clicked, so the time units can be changed in real time.
 
 ### Output Data
 
@@ -93,7 +96,8 @@ The ions tab is present in order to organize the chemicals that are present in t
 
 
 ##### Molecular Weight
-The sum of all the masses in a molecule.
+The sum of all the masses in a molecule
+
 ##### KxA
 
 ##### Valence
@@ -108,11 +112,14 @@ If you do not know where or how to find the Surface Diffusion Coefficient you ca
 
 ### Initial Concentration
 
+The initial concentration represents the ratio of a mass to a given volume in this case is mg/L. The time of the final concentration determines the run duration of the analysis. As the model stands now, there is no data in the model to represent the concentration after the final concentration time. There have been discussions to plot data past the final concentration time but these will just be estimations.
 
 
 ### Output Concentration
 The output concentration is given in units of mass divided by volume, however, this number is also adjusted 
 ### Output Time
+The output time on the parameters tab represents the time units in the 
+
 ### Exporting Data
 
 
