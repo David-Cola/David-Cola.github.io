@@ -3,7 +3,9 @@
 # Table of Contents
 1. [Excel Formatting](#Excel)
 2. [Quick Start](#QuickStart)
-
+3. [Features](#Features)
+4. [Reference](#Reference)
+5. [Resources](#Resources)
 
 The Ion Exchange Model is a tool used to measure the concentration of PFAS chemicals in drinking water over time given the initial conditions. 'Ion Exchange' in this context refers to a particular method of drinking water treatment where the contaminated drinking water passes through a resin column and _____________. To read a further in depth analysis of the theory behind this model please check out ________.  This tool can be used to determine if Ion Exchange or another method like Granular Activated Carbon is the most efficient for a given water treatment facility.
 
@@ -40,7 +42,7 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 ![plot](DocumentPics/plot.png)
 
-## Features
+## Features <a name="Features"></a>
 
 ### Select Input Units
 
@@ -53,7 +55,7 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 ### Refresh
 
 
-## Input Data Reference
+## Input Data Reference <a name="Reference"></a>
 
 ### Parameters
 
