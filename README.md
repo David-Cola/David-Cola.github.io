@@ -43,19 +43,19 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 The parameters tab is used to describe the physical constraints of the resin characteristics and column specifications. Some of these measurements, like Resin Capacity, can be nontrivial to measure so we have tried to supply a source where the user can find the information if they do not have it already.
 
-##### **Resin Capacity**
+##### **Resin Capacity - Q**
 Resin Capacity is a measurement of the total capacity of ions that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. This value needs to be determined experimentally by titration.
 
-##### **Bead Radius**
+##### **Bead Radius - rb**
 Bead radius is the measurement of the distance of the bead resin center to the surface.
 
-##### **Bed Porosity**
+##### **Bed Porosity - EBED**
 The bed porosity is the measure of a bed volume occupied by a solvent, in this case, usually PFAS chemicals. This factor is always between the values 0 and 1, where 0 represents a bed absent of a particular solvent and 1 is a bed where all the space is filled with that solvent.
 
-##### **Length**
+##### **Length - L**
 Length represents the distance along the outside of the cylinder that runs parallel with the flow of water.
 
-##### **Velocity**
+##### **Velocity - v**
 The Linear velocity that represents the distance one point along the water travels over a given period of time. The assumption here is that all particles in the flowing water move approximatley at the same velocity.
 
 ##### **Diameter**
@@ -64,15 +64,9 @@ The longest distance between one point to the other of the exiting hole.
 ##### **Flow Rate**
 The flow rate represents the distance one unit volume travels through the cylinder over a given period of time. The assumption here is that all volumes in the flowing water move approximatley at the same flow.
 
-##### **Film Transfer Coefficient**
-If you do not know how to find your film transfer coefficient you can find it here
 
-##### **Surface Diffusion Coefficient**
-The Surface Diffusion Coefficient is the proportion of 
-If you do not know where or how to find the Surface Diffusion Coefficient you can find it here
-
-##### **Radial Collocation Points**
-##### **Axial Collocation Points**
+##### **Radial Collocation Points - nr**
+##### **Axial Collocation Points - nz**
 ##### **Volumetric and Linear Velocity**
 There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.
 
@@ -84,9 +78,12 @@ The sum of all the masses in a molecule.
 ##### Valence
 The number of electrons that a given element or chemical can lose.
 
-##### Film Transfer Coefficient
+##### **Film Transfer Coefficient - kL**
+If you do not know how to find your film transfer coefficient you can find it here
 
-##### Surface Diffusion Coefficient
+##### **Surface Diffusion Coefficient - Ds**
+The Surface Diffusion Coefficient is the proportion of 
+If you do not know where or how to find the Surface Diffusion Coefficient you can find it here
 
 ### Input Concentration
 
