@@ -41,7 +41,7 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 ### Parameters
 
-The parameters tab is used to describe the physical constraints of the users water treatment process. Some of these measurements like Resin Capacity can be nontrivial, so we 
+The parameters tab is used to describe the physical constraints of the resin characteristics and column specifications. Some of these measurements, like Resin Capacity, can be nontrivial to measure so we have tried to supply a source where the user can find the information if they do not have it already.
 
 ##### **Resin Capacity**
 Resin Capacity is a measurement of the total capacity of ions that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. This value needs to be determined experimentally by titration.
@@ -73,19 +73,25 @@ If you do not know where or how to find the Surface Diffusion Coefficient you ca
 
 ##### **Radial Collocation Points**
 ##### **Axial Collocation Points**
-##### **Volumetric and Linear Velocit**y
+##### **Volumetric and Linear Velocity**
 There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.
 
 ### Ions
 ##### Molecular Weight
 The sum of all the masses in a molecule.
 ##### KxA
+
 ##### Valence
+The number of electrons that a given element or chemical can lose.
+
 ##### Film Transfer Coefficient
+
 ##### Surface Diffusion Coefficient
 
 ### Input Concentration
+
 ### Output Concentration
+The output concentration is given in units of mass divided by volume, however, this number is also adjusted 
 ### Output Time
 ### Exporting Data
 
