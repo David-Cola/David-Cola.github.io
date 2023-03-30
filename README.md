@@ -30,7 +30,6 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 4.	Switch to the output tab (There should be a loading “spinner” to let you know it’s running)
 
-![tabs](DocumentPics/tabs.png)
 ![waiting](DocumentPics/waiting.png)
 
 5.	Graph will appear
