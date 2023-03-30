@@ -20,10 +20,22 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 ![Import File](DocumentPics/browse.png)
 
-3. Change the parameters, ions, and initial concentrations in their respective tabs to receive different results
-4.	Hit run button that’s at the bottom of the same side panel as the file import
-5.	Switch to the output tab (There should be a loading “spinner” to let you know it’s running)
-6.	Graph will appear
+2. Change the parameters, ions, and initial concentrations in their respective tabs to receive different results
+
+![Inputs](DocumentPics/inputs.png)
+
+3.	Hit run button that’s at the bottom of the same side panel as the file import
+
+![Run](DocumentPics/run_analysis.png)
+
+4.	Switch to the output tab (There should be a loading “spinner” to let you know it’s running)
+
+![tabs](DocumentPics/tabs.png)
+![waiting](DocumentPics/waiting.png)
+
+5.	Graph will appear
+
+![plot](DocumentPics/newplot(4).png)
 
 
 ## Features
