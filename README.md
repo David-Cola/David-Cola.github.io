@@ -1,6 +1,5 @@
 # Ion Exchange Modeling Tool
 
-# Table of Contents
 1. [Excel Formatting](#Excel)
 2. [Quick Start](#QuickStart)
 3. [Features](#Features)
