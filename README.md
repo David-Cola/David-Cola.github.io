@@ -112,8 +112,4 @@ The output concentration is given in units of mass divided by volume, however, t
 
 The Ion Exchange Model is meant to take the input of the users water treatment specifications as well as their ions they want to remove from the water and their concentrations before the ions enter the treatment process.
 
-## How to Use
-The user has the option to input the necessary information to run the program either all within the app or by using an excel file with a format seen in the User Input section.
 
-
-### Quick Start
