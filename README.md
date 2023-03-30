@@ -36,8 +36,20 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 ![plot](DocumentPics/plot.png)
 
-
 ## Features
+
+### Select Input Units
+
+### Select Output Concentration Units
+
+### Select Time Units
+
+### Output Data
+
+### Refresh
+
+
+## Input Data Reference
 
 ### Parameters
 
