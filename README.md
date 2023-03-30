@@ -34,7 +34,7 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 5.	Graph will appear
 
-![plot](DocumentPics/newplot(4).png)
+![plot](DocumentPics/plot.png)
 
 
 ## Features
