@@ -37,15 +37,15 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 3.	Click the run button that’s at the bottom of the same side panel as the file import. 5 total chemicals with 2 concentration points takes about 1-2 minutes.
 
-![Run](DocumentPics/Slide6.png)
+![Run](DocumentPics/Slide6.PNG)
 
 4.	Switch to the output tab (There should be a loading “spinner” to let you know it’s running)
 
-![waiting](DocumentPics/Slide7.png)
+![waiting](DocumentPics/Slide7.PNG)
 
 5.	Your graph will appear. You can export the data as an xlsx file along with the conditions you input.
 
-![plot](DocumentPics/Slide8.png)
+![plot](DocumentPics/Slide8.PNG)
 
 ## Features <a name="Features"></a>
 
