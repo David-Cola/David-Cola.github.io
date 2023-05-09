@@ -52,7 +52,7 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 ## Input Data Reference <a name="Reference"></a>
 
 |  Input        				|Variable  | Description    | Source |
-|---            				|---       |---            |        |
+|---            				|---       |---            |---        |
 |Resin Capacity 				|     Q    |       |
 |Bead Radius    				|     rb   |               |        |
 |Bed Porosity   				|     EBED |               |        |
