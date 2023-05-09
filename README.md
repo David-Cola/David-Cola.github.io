@@ -47,23 +47,15 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 ![plot](DocumentPics/Slide8.PNG)
 
-## Features <a name="Features"></a>
-
-### Select Input Units
-The select input units is found in the parameters tab. These should automatically configure to the units in the excel file that is uploaded. Changing the units does not update the value in the value box.
-
-### Select Output Concentration Units
-The output concentration units is found on the sidebar within the app. The concentrations are multiplied by mass / valence in order to ______. The c/c0 unit is the ratio of the output concentration to the initial concentration found in the 'cin' tab in the excel file in row two, where row one is the header. The output concentration units can be decided before or after run analysis is clicked so that the units can be changed in real time.
-
-### Select Time Units
-The output time units is found on the sidebar within the app. An important thing to note is that the output time units is NOT connected to the time in the 'cin' tab. If the user wishes to change the concentration time that can be found in the parameter tab. The output time units can be changed before or after the run analysis is clicked, so the time units can be changed in real time.
-
-### Output Data
-
-### Refresh
 
 
 ## Input Data Reference <a name="Reference"></a>
+
+|  Input | Description  |Source   |
+|---     |---           |---      |
+|        |              |         |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 ### Parameters
 
