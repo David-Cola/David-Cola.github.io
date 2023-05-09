@@ -51,12 +51,18 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 ## Input Data Reference <a name="Reference"></a>
 
-|  Input | Description  |Source   |
-|---     |---           |---      |
-|        |              |         |
-|   |   |   |   |   |
-|   |   |   |   |   |
-
+|  Input        				|Variable  | Description    | Source |
+|---            				|---       |---            |        |
+|Resin Capacity 				|     Q    |Resin capacity is a measurement of the total capacity of PFAS that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. The value needs to be determined experimentally by titration, usually given by the manufacturing company.               |        |
+|Bead Radius    				|     rb   |               |        |
+|Bed Porosity   				|     EBED |               |        |
+|Length         				|     L    |               |        |
+|Velocity  					|     v    |               |        |
+|Diameter   				|     d    |               |        |
+|Flow Rate					|	fr   |               |        |
+|Radial Collocation Points		|	nr   |               |        |
+|Axial Collocation Points		|	nz   |               |        |
+|Volumetric and Linear Velocity	|          |               |        |
 ### Parameters
 
 The parameters tab is used to describe the physical constraints of the resin characteristics and column specifications. Some of these measurements, like Resin Capacity, can be nontrivial to measure so we have tried to supply a source where the user can find the information if they do not have it already.
