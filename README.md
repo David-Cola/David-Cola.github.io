@@ -13,7 +13,7 @@ The Ion Exchange Model is a tool used to measure the concentration of PFAS chemi
 The input for the excel file must be formatted like the one shown in figure 1 if the user wants to import data.
 
 <figure>
-    <img src="DocumentPics/excel.png"
+    <img src="DocumentPics/excelsheet.png"
          alt="Excel Input">
     <figcaption>The excel file consists of three sheets: parameters of the system, the list of ions that the user is interested in along with their properties, and the list of concentrations for the ions at a given time. Each tab is broken down in detail in the features section of this document.</figcaption>
 </figure>
