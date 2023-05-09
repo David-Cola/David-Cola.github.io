@@ -24,23 +24,28 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 1. Click import file in the top left of the Interface
 
-![Import File](DocumentPics/browse.png)
+![Import File](DocumentPics/Slide2.PNG)
 
-2. Change the parameters, ions, and initial concentrations in their respective tabs to receive different results
+2. (Optional) Change the parameters to match the specifications of your Ion Exchange apparatus
 
-![Inputs](DocumentPics/inputs.png)
+![Inputs](DocumentPics/Slide3.PNG)
 
-3.	Hit run button that’s at the bottom of the same side panel as the file import
+3. (Optional) In the ions tab, add chemicals and concentration points to match your interest. These can be added or edited by right clicking the data table.
 
-![Run](DocumentPics/run_analysis.png)
+![Adjust](DocumentPics/Slide4.PNG)
+![IonEdit](DocumentPics/Slide5.PNG)
+
+3.	Click the run button that’s at the bottom of the same side panel as the file import. 5 total chemicals with 2 concentration points takes about 1-2 minutes.
+
+![Run](DocumentPics/Slide6.png)
 
 4.	Switch to the output tab (There should be a loading “spinner” to let you know it’s running)
 
-![waiting](DocumentPics/waiting.png)
+![waiting](DocumentPics/Slide7.png)
 
-5.	Graph will appear
+5.	Your graph will appear. You can export the data as an xlsx file along with the conditions you input.
 
-![plot](DocumentPics/plot.png)
+![plot](DocumentPics/Slide8.png)
 
 ## Features <a name="Features"></a>
 
