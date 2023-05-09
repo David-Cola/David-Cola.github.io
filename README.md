@@ -53,7 +53,7 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 |  Input        				|Variable  | Description    | Source |
 |---            				|---       |---            |---        |
-|Resin Capacity 				|     Q    |       |
+|Resin Capacity 				|     Q    | Resin capacity is a measurement of the total capacity of PFAS that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. The value needs to be determined experimentally by titration, usually given by the manufacturing company.      |
 |Bead Radius    				|     rb   |               |        |
 |Bed Porosity   				|     EBED |               |        |
 |Length         				|     L    |               |        |
