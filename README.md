@@ -54,12 +54,13 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 |  Input        				|Variable  | Description    | Source |
 |---            				|---       |---            |---        |
 |Resin Capacity 				|     Q    | Resin capacity is a measurement of the total capacity of PFAS that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. The value needs to be determined experimentally by titration, usually given by the manufacturing company.      |
-|Bead Radius    				|     rb   |               |        |
-|Bed Porosity   				|     EBED |               |        |
-|Length         				|     L    |               |        |
-|Velocity  					|     v    |               |        |
-|Diameter   				|     d    |               |        |
-|Flow Rate					|	fr   |               |        |
+|Bead Radius    				|     rb   | Bead radius is the measurement of the distance of the bead resin from the center to the surface.              |        |
+|Bed Porosity   				|     EBED | The bed porosity is the measure of a bed volume occupied by a solvent, usually PFAS chemicals. This factor is between 0 and 1, where 0 represents a bed absent of a particular solvent and 1 is a bed where all the available space is filled with solvent.              |        |
+|Length         				|     L    |Effective length of the column.               |        |
+|Velocity  					|     v    | The linear velocity that represents the distance an average water particle travels over a given period of time.              |        |
+|Diameter   				|     d    |  The longest distance between one point to the other of the exit.             |        |
+|Flow Rate					|	fr   | The flow rate represents the distance one unit volume travels through the cylinder over a given period of time. 
+           |        |
 |Radial Collocation Points		|	nr   |               |        |
 |Axial Collocation Points		|	nz   |               |        |
 |Volumetric and Linear Velocity	|          |               |        |
@@ -67,26 +68,9 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 The parameters tab is used to describe the physical constraints of the resin characteristics and column specifications. Some of these measurements, like Resin Capacity, can be nontrivial to measure so we have tried to supply a source where the user can find the information if they do not have it already.
 
-##### **Resin Capacity - Q**
-Resin Capacity is a measurement of the total capacity of ions that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. This value needs to be determined experimentally by titration.
 
-##### **Bead Radius - rb**
-Bead radius is the measurement of the distance of the bead resin center to the surface.
 
-##### **Bed Porosity - EBED**
-The bed porosity is the measure of a bed volume occupied by a solvent, in this case, usually PFAS chemicals. This factor is always between the values 0 and 1, where 0 represents a bed absent of a particular solvent and 1 is a bed where all the space is filled with that solvent.
 
-##### **Length - L**
-Length represents the distance along the outside of the cylinder that runs parallel with the flow of water.
-
-##### **Velocity - v**
-The Linear velocity that represents the distance one point along the water travels over a given period of time. The assumption here is that all particles in the flowing water move approximatley at the same velocity.
-
-##### **Diameter**
-The longest distance between one point to the other of the exiting hole.
-
-##### **Flow Rate**
-The flow rate represents the distance one unit volume travels through the cylinder over a given period of time. The assumption here is that all volumes in the flowing water move approximatley at the same flow.
 
 
 ##### **Radial Collocation Points - nr**
