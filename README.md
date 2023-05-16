@@ -51,6 +51,11 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 ## Input Data Reference <a name="Reference"></a>
 
+### Parameters
+
+The parameters tab is used to describe the physical constraints of the resin characteristics and column specifications. Some of these measurements, like Resin Capacity, can be nontrivial to measure so we have tried to supply a source where the user can find the information if they do not have it already.
+
+
 |  Input        				|Variable  | Description    | Source |
 |---            				|---       |---            |---        |
 |Resin Capacity 				|     Q    | Resin capacity is a measurement of the total capacity of PFAS that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. The value needs to be determined experimentally by titration, usually given by the manufacturing company.      |
@@ -64,12 +69,8 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 |Radial Collocation Points		|	nr   |               |        |
 |Axial Collocation Points		|	nz   |               |        |
 |Volumetric and Linear Velocity	|          |               |        |
-### Parameters
 
-The parameters tab is used to describe the physical constraints of the resin characteristics and column specifications. Some of these measurements, like Resin Capacity, can be nontrivial to measure so we have tried to supply a source where the user can find the information if they do not have it already.
 
-##### **Radial Collocation Points - nr**
-##### **Axial Collocation Points - nz**
 
 
 ##### **Volumetric and Linear Velocity**
@@ -78,14 +79,20 @@ There are two options for chosing the input velocity: Volumetric (Flow rate) or 
 ### Ions
 The ions tab is present in order to organize the chemicals that are present in the analysis. This tab can be updated in either excel or in the Ion Exchange app. The ions are added by row with the columns in order being name, molecular weight, KxA, valence, film transfer coefficient, and surface diffusion coefficient. Chloride, Sulfate, Bicarbonate, and Nitrate should always be in the ions tab.
 
+|  Input        	                |Variable   | Description                                                                      | Source    |
+|---            				    |---        |---                                                                               |---        |
+|Molecular Weight (mw)              |mw         |The sum of all the masses in a molecule                                           |           |
+|Selectivity (KxA)                  |KxA        |                                                                                  |           |
+|Valence                            |           |The number of electrons that a given element or chemical can lose.                |           |
+|Film Transfer Coefficient (kL)     |kL         |                                                                                  |           |
+|Surface Diffusion Coefficient (Ds) |Ds         |                                                                                  |           |
+
 
 ##### Molecular Weight
 The sum of all the masses in a molecule
 
 ##### KxA
 
-##### Valence
-The number of electrons that a given element or chemical can lose.
 
 ##### **Film Transfer Coefficient - kL**
 If you do not know how to find your film transfer coefficient you can find it here
