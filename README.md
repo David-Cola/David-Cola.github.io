@@ -68,13 +68,10 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 The parameters tab is used to describe the physical constraints of the resin characteristics and column specifications. Some of these measurements, like Resin Capacity, can be nontrivial to measure so we have tried to supply a source where the user can find the information if they do not have it already.
 
-
-
-
-
-
 ##### **Radial Collocation Points - nr**
 ##### **Axial Collocation Points - nz**
+
+
 ##### **Volumetric and Linear Velocity**
 There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.
 
