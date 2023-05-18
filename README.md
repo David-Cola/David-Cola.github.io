@@ -58,8 +58,7 @@ The parameters tab is used to describe the physical constraints of the resin cha
 
 |  Input        				|Variable  | Description    | Source |
 |---            				|---       |---            |---        |
-|Resin Capacity 				|     Q    |                |
-      |
+|Resin Capacity 				|     Q    | Resin capacity is a measurement of the total capacity of PFAS that can be absorbed by a volume of resin. This capacity is expressed in quantity per unit volume. The value needs to be determined experimentally by titration, usually given by the manufacturing company.      |
 |Bead Radius    				|     rb   | Bead radius is the measurement of the distance of the bead resin from the center to the surface.              |        |
 |Bed Porosity   				|     EBED | The bed porosity is the measure of a bed volume occupied by a solvent, usually PFAS chemicals. This factor is between 0 and 1, where 0 represents a bed absent of a particular solvent and 1 is a bed where all the available space is filled with solvent.              |        |
 |Length         				|     L    |Effective length of the column.               |        |
@@ -89,6 +88,12 @@ The ions tab is present in order to organize the chemicals that are present in t
 |Surface Diffusion Coefficient (Ds) |Ds         |                                                                                  |           |
 
 
+##### Molecular Weight
+The sum of all the masses in a molecule
+
+##### KxA
+
+
 ##### **Film Transfer Coefficient - kL**
 If you do not know how to find your film transfer coefficient you can find it here
 
@@ -110,5 +115,4 @@ The output time on the parameters tab represents the time units in the
 
 
 The Ion Exchange Model is meant to take the input of the users water treatment specifications as well as their ions they want to remove from the water and their concentrations before the ions enter the treatment process.
-
 
