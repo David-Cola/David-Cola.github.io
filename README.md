@@ -88,12 +88,6 @@ The ions tab is present in order to organize the chemicals that are present in t
 |Surface Diffusion Coefficient (Ds) |Ds         |                                                                                  |           |
 
 
-##### Molecular Weight
-The sum of all the masses in a molecule
-
-##### KxA
-
-
 ##### **Film Transfer Coefficient - kL**
 If you do not know how to find your film transfer coefficient you can find it here
 
