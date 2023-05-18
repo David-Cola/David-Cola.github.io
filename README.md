@@ -58,7 +58,7 @@ The parameters tab is used to describe the physical constraints of the resin cha
 
 |  Input        				|Variable  | Description    | Source |
 |---            				|---       |---            |---        |
-|Resin Capacity 				|     Q    | 
+|Resin Capacity 				|     Q    |                |
       |
 |Bead Radius    				|     rb   | Bead radius is the measurement of the distance of the bead resin from the center to the surface.              |        |
 |Bed Porosity   				|     EBED | The bed porosity is the measure of a bed volume occupied by a solvent, usually PFAS chemicals. This factor is between 0 and 1, where 0 represents a bed absent of a particular solvent and 1 is a bed where all the available space is filled with solvent.              |        |
