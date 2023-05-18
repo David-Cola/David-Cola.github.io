@@ -59,42 +59,6 @@ The parameters tab is used to describe the physical constraints of the resin cha
 |  Input        				|Variable  | Description    | Source |
 |---            				|---       |---            |---        |
 |Resin Capacity 				|     Q    | 
-
-The total ion exchange capacity of the resin () is one of the critical
-input parameters in the HSDMIX Shiny application. This quantity is defined as
-the concentration of available exchange sites per unit volume inside a resin
-bead. This basis is used in the underlying model equations. However, several
-other conventions for defining this quantity are used in practice. The filter
-capacity () is commonly provided by
-resin manufacturers and corresponds to the concentration of fixed sites per
-volume of the resin bed (that is, the filter). The values of  and  are related by bed porosity () [EBED in HSDMIX] through
-equation 1.
-
-
-
-
-
-Typical units for  and  in the literature are meq/mL, meq/L, or eq/mL.
-Alternatively, the ion exchange capacity of a resin is sometimes defined on a
-dry weight basis (). The dry weight
-capacity can be related to  either by through apparent resin density () [RHOP in the Python
-version of HSDMIX], which is the dry mass of a pellet divided by the pellet’s
-volume when fully hydrated, or through the apparent resin density of the bed (), which is the mass of
-dry resin per filter volume. The relationships between  and  are given by equation 2.
-
-
-
-
-
-Because resin volume and density can
-change with ionic composition of the resin, , , and  may be different for resin in different ionic
-forms (for instance, hydroxide vs chloride forms of anion exchange resins).
-There is also some variability in the literature on what is considered “dry”
-(completely dry, or air dry) for . The user is advised
-to carefully check data sources for resin capacity carefully on these matters.
-
-
-
       |
 |Bead Radius    				|     rb   | Bead radius is the measurement of the distance of the bead resin from the center to the surface.              |        |
 |Bed Porosity   				|     EBED | The bed porosity is the measure of a bed volume occupied by a solvent, usually PFAS chemicals. This factor is between 0 and 1, where 0 represents a bed absent of a particular solvent and 1 is a bed where all the available space is filled with solvent.              |        |
