@@ -4,9 +4,7 @@ The Ion Exchange Model is a tool used to measure the concentration of PFAS chemi
 
 1. [Excel Formatting](#Excel)
 2. [Quick Start](#QuickStart)
-3. [Features](#Features)
-4. [Reference](#Reference)
-5. [Resources](#Resources)
+3. [Reference](#Reference)
 
 
 ## Excel Formatting <a name="Excel"></a>
@@ -62,14 +60,12 @@ The parameters tab is used to describe the physical constraints of the resin cha
 |Bead Radius    				|     rb   | Bead radius is the measurement of the distance of the bead resin from the center to the surface.              |        |
 |Bed Porosity   				|     EBED | The bed porosity is the measure of a bed volume occupied by a solvent, usually PFAS chemicals. This factor is between 0 and 1, where 0 represents a bed absent of a particular solvent and 1 is a bed where all the available space is filled with solvent.              |        |
 |Length         				|     L    |Effective length of the column.               |        |
-|Velocity  					|     v    | The linear velocity that represents the distance an average water particle travels over a given period of time.              |        |
+|Velocity  					|     v    | The linear velocity that represents the distance an average water particle travels over a given period of time.     |    |
 |Diameter   				|     d    |  The longest distance between one point to the other of the exit.             |        |
-|Flow Rate					|	fr   | The flow rate represents the distance one unit volume travels through the cylinder over a given period of time. 
-           |        |
+|Flow Rate					|	fr   | The flow rate represents the distance one unit volume travels through the cylinder over a given period of time. |        |
 |Radial Collocation Points		|	nr   |Mathetmical Object used to stablilize numeric fluctuations in a differential equation.               |        |
 |Axial Collocation Points		|	nz   |               |        |
-|Volumetric and Linear Velocity	|There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.
-          |               |        |
+|Volumetric and Linear Velocity	|        |There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.               |        |
 
 ####Notes of Resin Capacity (Q)
 The total ion exchange capacity of the resin (Q) is one of the critical input parameters in the HSDMIX Shiny application. This quanitity is defined as the concentration of available exchange sites per unit volume inside a resin bead. This basiss is used in the unerlying model equations. However, several other conventions for defining this quanitity are used in practice. The filter capacity (Q~f~) is commonly provided by resin manufacturers and corresponds to the concentration of fixed sites per volume of the resin bed (that is, the filter). The values of Q and Q~f~ are related by bed porosity (\(\epsilon\)) [EBED in HSDMIX] through equation 1.
@@ -90,18 +86,6 @@ The ions tab is present in order to organize the chemicals that are present in t
 
 
 
-##### Molecular Weight
-The sum of all the masses in a molecule
-
-##### KxA
-
-
-##### **Film Transfer Coefficient - kL**
-If you do not know how to find your film transfer coefficient you can find it here
-
-##### **Surface Diffusion Coefficient - Ds**
-The Surface Diffusion Coefficient is the proportion of 
-If you do not know where or how to find the Surface Diffusion Coefficient you can find it here
 
 ### Initial Concentration
 
