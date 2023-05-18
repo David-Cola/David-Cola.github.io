@@ -66,15 +66,16 @@ The parameters tab is used to describe the physical constraints of the resin cha
 |Diameter   				|     d    |  The longest distance between one point to the other of the exit.             |        |
 |Flow Rate					|	fr   | The flow rate represents the distance one unit volume travels through the cylinder over a given period of time. 
            |        |
-|Radial Collocation Points		|	nr   |               |        |
+|Radial Collocation Points		|	nr   |Mathetmical Object used to stablilize numeric fluctuations in a differential equation.               |        |
 |Axial Collocation Points		|	nz   |               |        |
-|Volumetric and Linear Velocity	|          |               |        |
+|Volumetric and Linear Velocity	|There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.
+          |               |        |
+
+####Notes of Resin Capacity (Q)
+The total ion exchange capacity of the resin (Q) is one of the critical input parameters in the HSDMIX Shiny application. This quanitity is defined as the concentration of available exchange sites per unit volume inside a resin bead. This basiss is used in the unerlying model equations. However, several other conventions for defining this quanitity are used in practice. The filter capacity (Q~f~) is commonly provided by resin manufacturers and corresponds to the concentration of fixed sites per volume of the resin bed (that is, the filter). The values of Q and Q~f~ are related by bed porosity (\(\epsilon\)) [EBED in HSDMIX] through equation 1.
 
 
 
-
-##### **Volumetric and Linear Velocity**
-There are two options for chosing the input velocity: Volumetric (Flow rate) or Linear. Both options are available in this tool. If volumetric velocity is chosen, then length, diameter, and flow rate must all be supplied before the analysis is ran. If linear velocity is chosen then the user only needs length and velocity. This is because the tool by default takes linear velocity and when a volumetric velocity is given then the flow rate must be converted to linear velocity.
 
 ### Ions
 The ions tab is present in order to organize the chemicals that are present in the analysis. This tab can be updated in either excel or in the Ion Exchange app. The ions are added by row with the columns in order being name, molecular weight, KxA, valence, film transfer coefficient, and surface diffusion coefficient. Chloride, Sulfate, Bicarbonate, and Nitrate should always be in the ions tab.
@@ -82,10 +83,10 @@ The ions tab is present in order to organize the chemicals that are present in t
 |  Input        	                |Variable   | Description                                                                      | Source    |
 |---            				    |---        |---                                                                               |---        |
 |Molecular Weight (mw)              |mw         |The sum of all the masses in a molecule                                           |           |
-|Selectivity (KxA)                  |KxA        |                                                                                  |           |
+|Selectivity (KxA)                  |KxA        |Reactivity of an ion relative to chloride                                         |           |
 |Valence                            |           |The number of electrons that a given element or chemical can lose.                |           |
-|Film Transfer Coefficient (kL)     |kL         |                                                                                  |           |
-|Surface Diffusion Coefficient (Ds) |Ds         |                                                                                  |           |
+|Film Transfer Coefficient (kL)     |kL         |Mass transfer coefficient in the boundary of the beads                            |           |
+|Surface Diffusion Coefficient (Ds) |Ds         |Diffusion coefficient of the chemical in the media                                |           |
 
 
 
