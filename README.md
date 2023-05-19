@@ -83,11 +83,11 @@ The ions tab is present in order to organize the chemicals that are present in t
 
 |  Input        	                |Variable   | Description                                                                      | Source    |
 |---            				    |---        |---                                                                               |---        |
-|Molecular Weight (mw)              |mw         |The sum of all the masses in a molecule                                           |           |
-|Selectivity (KxA)                  |KxA        |Reactivity of an ion relative to chloride                                         |           |
+|Molecular Weight               |mw         |The sum of all the masses in a molecule                                           |           |
+|Selectivity                   |KxA        |Reactivity of an ion relative to chloride                                         |           |
 |Valence                            |           |The number of electrons that a given element or chemical can lose.                |           |
-|Film Transfer Coefficient (kL)     |kL         |Mass transfer coefficient in the boundary of the beads                            |           |
-|Surface Diffusion Coefficient (Ds) |Ds         |Diffusion coefficient of the chemical in the media                                |           |
+|Film Transfer Coefficient      |kL         |Mass transfer coefficient in the boundary of the beads                            |           |
+|Surface Diffusion Coefficient  |Ds         |Diffusion coefficient of the chemical in the media                                |           |
 
 
 
