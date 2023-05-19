@@ -18,7 +18,7 @@ The input for the excel file must be formatted like the one shown in figure 1 if
 
 &nbsp;
 
-# Quick Start
+## Quick Start
 
 1. Click import file in the top left of the Interface
 
